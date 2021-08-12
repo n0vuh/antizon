@@ -2,17 +2,6 @@ import requests
 import json 
 from .schemes import amznProduct
 
-params = {
-  'api_key': '66A685895A2F46D0BC7CF613DC35AEB4',
-  'type': 'product',
-  'amazon_domain': 'amazon.com',
-  'asin': 'B073JYC4XM',
-  'output': 'json',
-  'device': 'desktop',
-  'include_html': 'false',
-  'language': 'en_US'
-}
-
 class AMZN:
     def __init__(self, rainforest_api_key: str):
         self.params = {
