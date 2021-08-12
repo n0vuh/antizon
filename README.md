@@ -17,6 +17,8 @@ AntiZon is lazy because this was just a fun project, however, if it picks up ste
 3. Download the latest release of AntiZon
 4. Unpack the zip
 5. Run "AntiZon.exe"
+6. Get the "ASIN" from the URL (https://www.amazon.com/*product-name*/dp/**ASIN IS HERE**/)
+7. Follow instructions inside executable.
 
 ## Additional Information
 * MD5 Checksum: 8b87e45fdc19a14d9bd6ea88fc49a996
