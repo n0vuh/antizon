@@ -78,7 +78,7 @@ def main():
         dump = True
 
     if dump:
-        json.dump({"serpkey": serp_key, "amznkey": amzn_key}, open("resources/config.json", "w"))
+        json.dump({"serpkey": serp_key, "amznkey": amzn_key}, open("src/resources/config.json", "w"))
         main()
     
     # setup api classes
