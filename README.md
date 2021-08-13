@@ -2,6 +2,9 @@
 ## AntiZon, a price checker for Amazon.
 AntiZon is a simple utility to give consumers the ability to ensure they are getting the right price for what they are buying. Amazon is known to being generally more expensive (especially with third-party sellers) because of the fees Amazon induces.
 
+## Coming soon:
+* Defer from using third party apis
+
 ## How does it work?
 AntiZon uses [Rainforest](https://rainforestapi.com) to scrape data from Amazon, then searches google using [Serpapi](https://serpapi.com) to get google shopping information. Then, AntiZon will automatically cross check prices and present the end user with a list of URLS with prices & providers to choose from.
 ![AntiZon in action!](https://i.imgur.com/RjcpfPs.png)
